@@ -1,0 +1,6 @@
+            DateTime now = DateTime.Now;//get time 
+            string time_short = now.ToShortTimeString();//shorten time
+            string time_val = time_short.ToString();//change to string           
+            Console.WriteLine(time_val);
+            //dont go away my code 
+            Console.ReadLine();
